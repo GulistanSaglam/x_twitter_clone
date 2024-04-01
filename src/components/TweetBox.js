@@ -53,19 +53,6 @@ function TweetBox({ setOpenModal }) {
                         value={tweetMessage}
                         placeholder="What are you thinking??"
                         type='text' />
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <input
                         value={tweetImage}
                         onChange={(e) => setTweetImage(e.target.value)}
